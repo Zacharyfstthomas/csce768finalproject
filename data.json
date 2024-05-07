@@ -1,0 +1,97 @@
+{
+  "@type": "Dataset",
+  "identifier": "10.1038/s41597-021-00926-7",
+  "title": "Metadata record for: Aachen-Heerlen annotated steel microstructure dataset",
+  "relatedPublications": [],
+  "repositories": [
+    {
+      "name": "figshare",
+      "value": "https://doi.org/10.6084/m9.figshare.c.5185004",
+      "@type": "DataCatalog"
+    }
+  ],
+  "assays": [
+    {
+      "measurementType": {
+        "annotationValue": "area of martensite-austenite in steel",
+        "@type": "PropertyValue"
+      },
+      "technologyType": {
+        "annotationValue": "scanning electron microscopy",
+        "termAccession": "http://purl.obolibrary.org/obo/CHMO_0000073",
+        "termSource": "CHMO",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    },
+    {
+      "measurementType": {
+        "annotationValue": "Polygon",
+        "termAccession": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C73492",
+        "termSource": "NCIT",
+        "@type": "PropertyValue"
+      },
+      "technologyType": {
+        "annotationValue": "Annotation",
+        "termAccession": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C44272",
+        "termSource": "NCIT",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    }
+  ],
+  "factors": [
+    {
+      "name": "steel manufacturing process parameters",
+      "type": {
+        "annotationValue": "experimental condition",
+        "termAccession": "http://purl.obolibrary.org/obo/XCO_0000000",
+        "termSource": "XCO",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    }
+  ],
+  "studyCharacteristics": {
+    "organism": [],
+    "environmentType": [],
+    "geographicalLocation": [],
+    "@type": "variableMeasured"
+  },
+  "ontologySourceReferences": {
+    "XCO": {
+      "name": "XCO",
+      "description": "Experimental Conditions Ontology",
+      "file": "http://data.bioontology.org/ontologies/XCO",
+      "version": "4.26",
+      "@type": "DefinedTermSet"
+    },
+    "CHMO": {
+      "name": "CHMO",
+      "description": "Chemical Methods Ontology",
+      "file": "http://data.bioontology.org/ontologies/CHMO",
+      "version": "releases/2014-11-20",
+      "@type": "DefinedTermSet"
+    },
+    "NCIT": {
+      "name": "NCIT",
+      "description": "National Cancer Institute Thesaurus",
+      "file": "http://data.bioontology.org/ontologies/NCIT",
+      "version": "20.01d",
+      "@type": "DefinedTermSet"
+    },
+    "@type": "CategoryCodeSet"
+  },
+  "comments": [
+    {
+      "name": "Created With Configuration",
+      "value": "1.0",
+      "@type": "SoftwareApplication"
+    },
+    {
+      "name": "Data Descriptor License",
+      "value": "CC-BY-4.0",
+      "@type": "CreativeWork"
+    }
+  ]
+}
